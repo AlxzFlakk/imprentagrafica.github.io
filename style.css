@@ -197,4 +197,33 @@ p {
     text-align: center;
     font-size: 14px; 
 }
+/* Estilo para el título */
+.title {
+    margin-bottom: 40px;
+    font-size: 10vw; /* Hace que el tamaño del título dependa del ancho de la ventana */
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.2; /* Ajuste para mejorar la legibilidad */
+}
+
+/* Ajustes para pantallas más pequeñas (móviles) */
+@media (max-width: 600px) {
+    .title {
+        font-size: 12vw; /* Aumenta el tamaño del título en pantallas móviles */
+    }
+}
+
+/* Ajustes para pantallas medianas (tabletas) */
+@media (max-width: 900px) {
+    .title {
+        font-size: 8vw; /* Ajusta el tamaño para tablets */
+    }
+}
+
+/* Ajuste para pantallas grandes */
+@media (min-width: 1200px) {
+    .title {
+        font-size: 5vw; /* Reduce el tamaño del título en pantallas grandes */
+    }
+}
 
